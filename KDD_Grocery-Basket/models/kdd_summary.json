@@ -1,0 +1,19 @@
+{
+  "transactions": 9835,
+  "after_preprocessing": 9787,
+  "items": 169,
+  "items_after_reduction": 119,
+  "frequent_itemsets": 322,
+  "apriori_ms": 88.5,
+  "fpgrowth_ms": 77.4,
+  "rules_lift_gt1": 592,
+  "significant": 468,
+  "non_redundant": 466,
+  "stable_holdout": 454,
+  "final_rules": 112,
+  "novel_rules": 18,
+  "hit_rate_at5": 0.1494,
+  "popularity_hit_rate_at5": 0.2719,
+  "hybrid_hit_rate_at5": 0.2763,
+  "rec_trials": 1151
+}

@@ -1,0 +1,65 @@
+{
+  "champion": "Regression (modified)",
+  "validation": {
+    "Regression (modified)": {
+      "RMSE": 4279.459,
+      "MAE": 2348.541,
+      "R\u00b2": 0.86,
+      "MAPE %": 26.549
+    },
+    "Random Forest": {
+      "RMSE": 4391.679,
+      "MAE": 2539.155,
+      "R\u00b2": 0.852,
+      "MAPE %": 29.346
+    },
+    "Gradient Boosting": {
+      "RMSE": 4463.528,
+      "MAE": 1732.475,
+      "R\u00b2": 0.847,
+      "MAPE %": 12.637
+    },
+    "Decision Tree": {
+      "RMSE": 4808.337,
+      "MAE": 2854.503,
+      "R\u00b2": 0.823,
+      "MAPE %": 31.282
+    },
+    "Regression (raw inputs)": {
+      "RMSE": 5962.59,
+      "MAE": 4184.145,
+      "R\u00b2": 0.727,
+      "MAPE %": 45.182
+    },
+    "Regression (modified, log)": {
+      "RMSE": 8442.42,
+      "MAE": 4666.935,
+      "R\u00b2": 0.453,
+      "MAPE %": 34.79
+    }
+  },
+  "test": {
+    "RMSE": 4261.069,
+    "MAE": 2305.967,
+    "R\u00b2": 0.875,
+    "MAPE %": 25.739
+  },
+  "sklearn_version": "1.9.1",
+  "partition_sizes": {
+    "train": 802,
+    "validate": 267,
+    "test": 268
+  },
+  "importance": {
+    "smoker_bmi": 4285.0,
+    "smoker_obese": 3994.0,
+    "age_sq": 2425.0,
+    "smoker_flag": 130.0,
+    "children": 116.0,
+    "region": 43.0,
+    "age": 15.0,
+    "bmi": 11.0,
+    "sex": 5.0,
+    "obese": -11.0
+  }
+}
