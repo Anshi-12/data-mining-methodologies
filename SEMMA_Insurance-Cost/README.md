@@ -1,7 +1,7 @@
 # SEMMA — Medical Insurance Cost
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Anshi-12/data-mining-methodologies/blob/main/SEMMA_Insurance-Cost/SEMMA_Insurance_Cost.ipynb)
 
-📝 **Medium article:** MEDIUM_LINK · 🎥 **Video walkthrough:** YOUTUBE_LINK
+📝 **Medium article:** [Read on Medium](https://medium.com/@anshita.apps/semma-in-practice-when-a-linear-regression-beat-the-random-forest-b2f64bb711e1) · 🎥 **Video walkthrough:** YOUTUBE_LINK
 
 Sample (stratified 60/20/20 + representativeness tests) → Explore → Modify (interaction features) → Model (6 candidates) → Assess (comparison, decile, test). Includes a SAS program for SAS OnDemand (sas/semma_insurance.sas).
 
